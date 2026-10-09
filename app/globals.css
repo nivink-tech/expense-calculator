@@ -1,2 +1,8 @@
 body { font-family: system-ui, sans-serif; margin: 0; }
 main { max-width: 560px; margin: 40px auto; padding: 0 16px; }
+svg { max-width: 100%; height: auto; }
+.fields { display: flex; gap: 12px; margin: 16px 0; }
+.fields label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; flex: 1; }
+.fields input { padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; width: 100%; box-sizing: border-box; }
+.slider { width: 100%; }
+.warn { color: #b45309; font-size: 14px; }
