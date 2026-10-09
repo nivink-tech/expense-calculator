@@ -12,7 +12,7 @@ function Gauge({ value, min, max }) {
   const label = Number.isFinite(value) ? value.toLocaleString("en-US") : "–";
 
   return (
-    <svg viewBox="0 0 200 125" width="400" height="250" role="img" aria-label={`Gauge showing ${label}`}>
+    <svg viewBox="0 -8 200 133" width="400" height="266" role="img" aria-label={`Gauge showing ${label}`}>
       <defs>
         <linearGradient id="gauge-gradient" gradientUnits="userSpaceOnUse" x1="26" y1="0" x2="174" y2="0">
           <stop offset="0" stopColor="#d1301d" />
