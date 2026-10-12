@@ -8,3 +8,41 @@ main {
   margin: 40px auto;
   padding: 0 16px;
 }
+
+.form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.form input {
+  flex: 1 1 120px;
+}
+
+.filter {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.empty {
+  color: #888;
+}
+
+.total {
+  text-align: right;
+  font-size: 1.1rem;
+}

@@ -1,8 +1,10 @@
+import ExpenseCalculator from "./expense-calculator";
+
 export default function Home() {
   return (
     <main>
-      <h1>Hello, Next.js</h1>
-      <p>Edit app/page.js to get started.</p>
+      <h1>Expense Calculator</h1>
+      <ExpenseCalculator />
     </main>
   );
 }
